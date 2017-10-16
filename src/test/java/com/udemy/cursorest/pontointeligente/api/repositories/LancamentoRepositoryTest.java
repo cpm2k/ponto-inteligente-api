@@ -48,7 +48,6 @@ public class LancamentoRepositoryTest {
 		this.funcionarioId = funcionario.getId();
 		
 		this.lancamentoRepository.save(obterDadosLancamentos(funcionario));
-		this.lancamentoRepository.save(obterDadosLancamentos(funcionario));
 	}
 
 	@After
